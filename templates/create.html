@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %} Home Page {% endblock %}
+
+
+{% block content %}
+
+<div style="margin-top: 150px; width: 300px; background-color: #fff; border-radius: 5px; padding: 20px; margin: 0 auto; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); text-align: center;">
+  <h2>Create Account</h2>
+  <form action="#" method="POST">
+    <label for="username">Username</label>
+    <br>
+    <input type="text" id="username" name="username" placeholder="Enter a username" required>
+    <br>
+    <label for="email">Email</label>
+    <br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br>
+    <label for="password">Password</label>
+    <br>
+    <input type="password" id="password" name="password" placeholder="Enter a password" required>
+    <br>
+    <button type="submit">Create Account</button>
+  </form>
+</div>
+
+{% endblock %}

@@ -1,0 +1,5 @@
+# Notes
+
+ * desgin
+ * add menu from db
+ *
